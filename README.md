@@ -1,11 +1,13 @@
-# Software Requirements Specification (SRS)
-# Sylheti Nagri Immersive Learning Portal
+# Sylheti Nagri Immersive Learning Portal (Nagripath)
 
 ## 1. Project Overview
 
 The **Sylheti Nagri Immersive Learning Portal** is a web-based, mobile-friendly Ed-Tech platform designed to preserve, promote, and modernize the Sylheti Nagri script using **Augmented Reality (AR)**, **Artificial Intelligence (AI)**, and gamified learning techniques.
 
 The platform is being developed to participate in the **MillionX Bangladesh – AI Innovation Hackathon 2025**, representing a unique fusion of linguistic tradition and cutting-edge technology. 
+
+<img width="887" height="499" alt="image" src="https://github.com/user-attachments/assets/b531bbae-37ab-4771-a7c6-0c40a6f58de9" />
+
 
 **Domain:** ED-tech  
 **Challenge:** Multimodal learning assistant (text, voice, visuals)
@@ -58,6 +60,7 @@ The system is a standalone web application enhanced with AR-based immersive lear
 - Offline-first learning support
 
 ## 7. System Features
+<img width="961" height="472" alt="image" src="https://github.com/user-attachments/assets/c67c14e8-3c32-4dce-b77c-664c35d48e87" />
 
 ### 7.1 Sylheti Nagri Keyboard
 - Input Sylheti Nagri characters
@@ -104,6 +107,7 @@ The system is a standalone web application enhanced with AR-based immersive lear
 4. **AR and Immersive Features** - Integrate AR.js/Unity AR Foundation
 5. **Integration and Gamification** - Link features with levels, badges, 1952 cultural content
 6. **Testing & Deployment** - Test/deploy on Vercel, create demo video and pitch deck
+<img width="948" height="540" alt="image" src="https://github.com/user-attachments/assets/d0204461-9ea2-4f4f-b091-d08e06e2d2bb" />
 
 ## 10. Problem–Solution Mapping
 
@@ -146,6 +150,7 @@ The system is a standalone web application enhanced with AR-based immersive lear
 - Firebase Authentication
 - JWT
 - Deployed on Vercel / Cloud infrastructure
+<img width="869" height="489" alt="image" src="https://github.com/user-attachments/assets/81f4fc80-7132-485e-93ab-7b9319d6ab8c" />
 
 ## 13. Dataset Description (Nagri Sound Dataset)
 
@@ -194,7 +199,8 @@ The **nagri-sound-dataset** hosted on Hugging Face contains letter-level referen
 - AI analytics for adaptive learning paths
 
 ## 17. Sustainable Development Goals
-*(To be detailed based on specific SDG alignment)*
+<img width="1004" height="565" alt="image" src="https://github.com/user-attachments/assets/043d2db4-8059-4064-a884-bcfef7467222" />
+
 
 ## 18. Team Overview
 
@@ -210,14 +216,11 @@ The **nagri-sound-dataset** hosted on Hugging Face contains letter-level referen
 
 ## 📋 Project Summary
 
-The **Sylheti Nagri Immersive Learning Portal** is an innovative Ed-Tech solution for the **MillionX Bangladesh – AI Innovation Hackathon 2025**, targeting the **Adaptive Tutors, Learning Analytics Dashboard, and Multimodal Learning Assistant** challenge.
-
-**Tech Stack:** Unity AR Foundation, React.js, Node.js, OpenAI models  
-**Key Features:** Digital keyboard, AR 3D letters, Bangla-to-Nagri conversion, leveled AR games, AI chatbot, cultural heritage content  
-**Accessibility:** Offline-first, low-bandwidth optimized
+The Sylheti Nagri Immersive Learning Portal is an innovative Ed-Tech solution for the MillionX Bangladesh – AI Innovation Hackathon 2025, targeting the Multimodal Learning Assistant challenge. This web-based, mobile-friendly platform fuses Augmented Reality (AR), AI-powered transliteration, gamified modules, and cultural heritage to preserve and modernize the Sylheti Nagri script. Key features include a digital keyboard, interactive 3D AR letters with pronunciation, Bangla-to-Nagri conversion, leveled AR games, an AI conversational chatbot guide, and historical content inspired by the 1952 Language Movement. Built with Unity AR Foundation, React.js, Node.js, and OpenAI models, it ensures offline accessibility, scalability, and cultural sensitivity for learners, educators, and children in low-bandwidth regions.        give me same to same as a markdown language
 
 **Dataset:** [![Hugging Face Dataset](https://huggingface.co/datasets/shivdi1999/nagri-sound-dataset)](https://huggingface.co/datasets/shivdi1999/nagri-sound-dataset)
-
+**Website:** https://bornokontho.web.app/
+**Youtube Demo Video:** https://youtu.be/L9S8TKtQ_nE
 ---
 
 *This project highlights Bangladesh's capacity to lead in culturally enriched, future-ready Ed-Tech solutions.*
