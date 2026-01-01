@@ -1,0 +1,17 @@
+@import "tailwindcss";
+ @plugin "daisyui" {
+ 
+  themes: light --default;
+ }
+
+
+ .ancient-link {
+  font-family: serif;
+  color: #f5f0e6;
+}
+
+.ancient-link:hover,
+.ancient-link.active {
+  color: #c2a24a;
+  background: rgba(194, 162, 74, 0.08);
+}
