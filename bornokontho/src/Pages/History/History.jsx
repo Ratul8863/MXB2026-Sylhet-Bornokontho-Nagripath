@@ -16,7 +16,6 @@ import authorsImg3 from "../../assets/D15.jpeg";
 import declineImg from "../../assets/D9.jpeg";
 import revivalImg from "../../assets/D10.jpeg";
 
-
 import "swiper/css";
 import "swiper/css/pagination";
 import { i } from "framer-motion/client";

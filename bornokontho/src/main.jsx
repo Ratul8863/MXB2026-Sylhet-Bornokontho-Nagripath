@@ -31,9 +31,9 @@ const router = createBrowserRouter([
     element: <MainLayout></MainLayout>,
     children:[
       {path:"/",
-        loader : () => {
-          return fetch("https://bornokontho-server.vercel.app/letters/home")
-        },  
+        // loader : () => {
+        //   return fetch("https://bornokontho-server.vercel.app/letters/home")
+        // },  
       element:<Home></Home>
       },
       {path:"learn",
