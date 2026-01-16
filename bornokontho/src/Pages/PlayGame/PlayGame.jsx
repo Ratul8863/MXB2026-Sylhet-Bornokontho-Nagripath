@@ -2,18 +2,17 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { Gamepad2, BookOpen, Download, ShieldCheck, Cpu } from "lucide-react";
 
+// import apkUrl from "../../../../game.apk"; // Ensure the APK file is in the public directory or adjust the path accordingly
+
 export default function PlayGame() {
   const navigate = useNavigate();
 
   const handleDownload = () => {
-    const apkUrl = "/apk/Nagripath-3D-Game.apk"; 
-    const link = document.createElement("a");
-    link.href = apkUrl;
-    link.download = "Nagripath-3D-Game.apk";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  window.location.href =
+    "https://drive.google.com/uc?export=download&id=1lqgAFCd6XjHRxxJBQJGjjpn3kHfii-B1";
+};
+
+
 
   return (
     <div className="min-h-screen bg-[#0f0e0c] text-[#f5f0e6] font-sans overflow-hidden relative">

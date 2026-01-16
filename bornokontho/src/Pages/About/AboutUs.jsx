@@ -14,6 +14,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
+import { i } from "framer-motion/client";
 
 const teamMembers = [
   {
@@ -23,13 +24,14 @@ const teamMembers = [
     image: pritom,
     description: "Team lead; oversees XR design, system architecture, and ensures cultural authenticity."
   },
-  {
-    name: "Ratul Saha Roy",
-    role: "Full-Stack Software Developer & Video Editor",
-    institution: "Metropolitan University, Bangladesh",
-    image: ratul,
-    description: "Develops full-stack platform features and creates demo content and video tutorials."
-  },
+{
+  name: "Ratul Saha Roy",
+  role: "Full-Stack Software Developer & Video Editor",
+  institution: "Metropolitan University, Bangladesh",
+  image: ratul,
+  description: "Designed and developed the website end-to-end, seamlessly combining frontend, backend, database and visual demo content."
+},
+
   {
     name: "Shivani Gokul Badgujar",
     role: "XR Conceptualizer, 3D Designer & AI Developer",
@@ -38,12 +40,12 @@ const teamMembers = [
     description: "Responsible for AR 3D assets, gamified interactions, and AI model integration."
   },
   {
-    name: "Sahil Uddin Ishmam",
-    role: "Software Developer & Competitive Programmer",
-    institution: "Metropolitan University, Bangladesh",
-    image: sahil,
-    description: "Frontend and backend development, React, Django, and optimization of gamified modules."
-  },
+  name: "Sahil Uddin Ishmam",
+  role: "Backend & API Developer",
+  institution: "Metropolitan University, Bangladesh",
+  image: sahil,
+  description: "Developed backend API and processed data for the Unity AR project."
+},
   {
     name: "Banidipa Chakraborty",
     role: "Graphic Designer, Content Writer & Vocal Artist",
@@ -95,11 +97,11 @@ export default function AboutUs() {
                </p>
                <div className="grid grid-cols-2 gap-4">
                   <div className="bg-[#0f0e0c] p-4 rounded-2xl border border-[#3a3324]">
-                    <h3 className="text-[#c2a24a] text-2xl font-bold">50+</h3>
+                    <h3 className="text-[#c2a24a] text-2xl font-bold">41</h3>
                     <p className="text-[10px] uppercase font-bold tracking-widest text-gray-500">Characters</p>
                   </div>
                   <div className="bg-[#0f0e0c] p-4 rounded-2xl border border-[#3a3324]">
-                    <h3 className="text-[#c2a24a] text-2xl font-bold">15+</h3>
+                    <h3 className="text-[#c2a24a] text-2xl font-bold">3</h3>
                     <p className="text-[10px] uppercase font-bold tracking-widest text-gray-500">Levels</p>
                   </div>
                </div>
